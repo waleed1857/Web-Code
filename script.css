@@ -1,0 +1,50 @@
+body {
+    background-color: lightblue;
+  }
+  
+
+
+table,th,td,tr{
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width:  40%;
+    margin: 20px;
+    border: 2px solid black;
+    margin-left: 30px;
+    border-collapse: collapse;
+    text-align: center;
+    color:black
+}
+
+
+
+h1{
+    color:purple;
+    text-align: center;
+}
+
+form,input,select{
+    background-color:white;
+    margin: 10px;
+    padding: 10px;
+}
+
+div{
+    color: cornflowerblue;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+    border: solid green 20px;
+    /* margin: 40px; */
+    padding: 20px;
+}
+
+
+
+.container{
+    display: flex;
+    height: 80vh;
+    border: 2px solid brown;
+
+}
