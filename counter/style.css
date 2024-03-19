@@ -3,18 +3,19 @@
     padding: 0;
 }
 
+
 .main-container{
-    /* display: flex; */
+    background-color: brown;
+    display: flex; 
 }
 
 .navbar{
-    background-color: aqua;
+    margin: 24px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 24px;
-    height: 30px;
-    
+    justify-content: space-between;
+    gap: 90px;
+    /* height: 30px; */
 }
 
 
