@@ -84,18 +84,14 @@ padding: 20px;
 .footnote{
     display: flex;
     justify-content: center;
-    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
-
-
-
-
-
-
-
-
-
-/* .footnote{
-    background-color: aqua;
-    height: auto;
-} */
+.footnote img{
+    height: 48px;
+    width: 60px;
+    /* overflow: auto; */
+}
