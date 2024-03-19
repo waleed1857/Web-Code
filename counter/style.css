@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    /* display: flex; */
+}
+
+.navbar{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    height: 30px;
+    
+}
+
+
+.navbar a{
+  text-decoration: none;
+}
