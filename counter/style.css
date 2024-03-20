@@ -22,3 +22,28 @@
 .navbar a{
   text-decoration: none;
 }
+
+.main{
+    margin-top: 20%;
+    margin-left: 40%;
+    padding: 25px;
+    background-color: #248824;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    border: 3px solid black;
+    border-radius: 5px;
+
+}
+
+.main button{
+    margin: 10px;
+    padding: 10px;
+    width: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
