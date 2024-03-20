@@ -24,3 +24,17 @@ button:hover{
     background-color: white;
     /* cursor: pointer; */
 }
+
+.code{
+    display: flex;
+}
+
+.code p{
+    margin: 30%;
+    margin-left: 40%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(71, 8, 95);
+ /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
