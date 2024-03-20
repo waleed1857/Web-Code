@@ -4,25 +4,6 @@
 }
 
 
-.main-container{
-    background-color: brown;
-    display: flex; 
-}
-
-.navbar{
-    margin: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 90px;
-    /* height: 30px; */
-}
-
-
-.navbar a{
-  text-decoration: none;
-}
-
 .main{
     margin-top: 20%;
     margin-left: 40%;
@@ -35,8 +16,8 @@
     width: 10%;
     border: 3px solid black;
     border-radius: 5px;
-
 }
+
 
 .main button{
     margin: 10px;
