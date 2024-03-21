@@ -6,6 +6,7 @@ var disBtn = document.getElementById("count");
 var resBtn = document.getElementById("re");
 var decBtn = document.getElementById("decCount");
 var display = document.getElementById("disPlay");
+var litScr = document.getElementById("lit");
 
 // Event for increment:
 disBtn.addEventListener('click',function(){
@@ -30,4 +31,9 @@ decBtn.addEventListener('click',function(){
         document.getElementById("disPlay").innerHTML = count;
         console.log(count)
     }
+});
+
+// Event for decrement:
+litScr.addEventListener('click',function(){
+    display.style.background = "black";
 });
